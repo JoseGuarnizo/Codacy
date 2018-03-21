@@ -6,11 +6,11 @@ package modelo;
  */
 public class Estudiante {
  
-    String nombre;
-    String apellido;
-    String cedula;
-    String user;
-    String pass;
+    public String nombre;
+    public String apellido;
+    public String cedula;
+    public String user;
+    public String pass;
 
     public Estudiante() {
     }

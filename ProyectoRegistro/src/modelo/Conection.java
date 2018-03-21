@@ -6,10 +6,7 @@ import java.sql.*;
 
 public class Conection {
 
-    public Conection() {
-
-    }
-    Connection con;
+    public Connection con;
 
     public Connection GetConection() {
         try {

@@ -6,8 +6,8 @@ import java.util.Observable;
 public class EstudianteDAO extends Observable {
 //declara atributos que nos van a servir eb esta clase
 
-    Conection conexion;
-    String rptaregistro;
+    public Conection conexion;
+    public String rptaregistro;
 
     public EstudianteDAO() {
         conexion = new Conection();
